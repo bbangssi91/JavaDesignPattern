@@ -1,8 +1,7 @@
 # Java Design Pattern
 
+
 Chap02) Adapter Pattern
 
-
----
-### Âü°í ÀÚ·á
+### ì°¸ê³  ìë£Œ
 <https://howtodoinjava.com/design-patterns/structural/adapter-design-pattern-in-java/>
