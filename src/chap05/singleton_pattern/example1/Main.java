@@ -1,4 +1,4 @@
-package chap05.singleton_pattern;
+package chap05.singleton_pattern.example1;
 
 public class Main {
 
