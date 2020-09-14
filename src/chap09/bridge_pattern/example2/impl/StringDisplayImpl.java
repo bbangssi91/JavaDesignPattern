@@ -1,4 +1,4 @@
-package chap09.bridge_pattern;
+package chap09.bridge_pattern.example2.impl;
 
 public class StringDisplayImpl extends DisplayImpl{
 

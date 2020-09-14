@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.4" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="chap09.bridge_pattern.example2.impl.DisplayImpl" project="DesignPattern" 
+    file="/DesignPattern/src/chap09/bridge_pattern/example2/impl/DisplayImpl.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="152" width="244" x="870" y="18"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="chap09.bridge_pattern.example2.func.Display" project="DesignPattern" 
+    file="/DesignPattern/src/chap09/bridge_pattern/example2/func/Display.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="153" width="236" x="370" y="18"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="chap09.bridge_pattern.example2.func.CountDisplay" project="DesignPattern" 
+    file="/DesignPattern/src/chap09/bridge_pattern/example2/func/CountDisplay.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="183" x="391" y="250"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="chap09.bridge_pattern.example2.Main" project="DesignPattern" 
+    file="/DesignPattern/src/chap09/bridge_pattern/example2/Main.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="129" width="171" x="103" y="29"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="chap09.bridge_pattern.example2.func.RandomCountDisplay" project="DesignPattern" 
+    file="/DesignPattern/src/chap09/bridge_pattern/example2/func/RandomCountDisplay.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="131" width="189" x="390" y="427"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="chap09.bridge_pattern.example2.impl.StringDisplayImpl" project="DesignPattern" 
+    file="/DesignPattern/src/chap09/bridge_pattern/example2/impl/StringDisplayImpl.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="155" width="204" x="758" y="289"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="chap09.bridge_pattern.example2.impl.CharDisplayImpl" project="DesignPattern" 
+    file="/DesignPattern/src/chap09/bridge_pattern/example2/impl/CharDisplayImpl.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="160" width="202" x="1042" y="286"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <association id="8">    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="9" name="displayImpl">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="10" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="1" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="11">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="1"/>  
+  </generalization>  
+  <generalization id="12">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="3"/>  
+  </generalization>  
+  <generalization id="13">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="2"/>  
+  </generalization>  
+  <generalization id="14">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="1"/>  
+  </generalization>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

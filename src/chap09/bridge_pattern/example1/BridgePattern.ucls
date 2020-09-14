@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <class-diagram version="1.2.4" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
   associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
-  <class id="1" language="java" name="chap09.bridge_pattern.CountDisplay" project="DesignPattern" 
-    file="/DesignPattern/src/chap09/bridge_pattern/CountDisplay.java" binary="false" corner="BOTTOM_RIGHT">    
+  <class id="1" language="java" name="chap09.bridge_pattern.example1.func.CountDisplay" project="DesignPattern" 
+    file="/DesignPattern/src/chap09/bridge_pattern/example1/func/CountDisplay.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="505" y="382"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
@@ -10,8 +10,8 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="2" language="java" name="chap09.bridge_pattern.Main" project="DesignPattern" 
-    file="/DesignPattern/src/chap09/bridge_pattern/Main.java" binary="false" corner="BOTTOM_RIGHT">    
+  <class id="2" language="java" name="chap09.bridge_pattern.example1.Main" project="DesignPattern" 
+    file="/DesignPattern/src/chap09/bridge_pattern/example1/Main.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="143" width="146" x="156" y="86"/>    
     <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
@@ -19,8 +19,8 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="3" language="java" name="chap09.bridge_pattern.Display" project="DesignPattern" 
-    file="/DesignPattern/src/chap09/bridge_pattern/Display.java" binary="false" corner="BOTTOM_RIGHT">    
+  <class id="3" language="java" name="chap09.bridge_pattern.example1.func.Display" project="DesignPattern" 
+    file="/DesignPattern/src/chap09/bridge_pattern/example1/func/Display.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="505" y="156"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
@@ -28,8 +28,9 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="4" language="java" name="chap09.bridge_pattern.StringDisplayImpl" project="DesignPattern" 
-    file="/DesignPattern/src/chap09/bridge_pattern/StringDisplayImpl.java" binary="false" corner="BOTTOM_RIGHT">    
+  <class id="4" language="java" name="chap09.bridge_pattern.example1.impl.StringDisplayImpl" project="DesignPattern" 
+    file="/DesignPattern/src/chap09/bridge_pattern/example1/impl/StringDisplayImpl.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="776" y="427"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
@@ -37,8 +38,8 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="5" language="java" name="chap09.bridge_pattern.DisplayImpl" project="DesignPattern" 
-    file="/DesignPattern/src/chap09/bridge_pattern/DisplayImpl.java" binary="false" corner="BOTTOM_RIGHT">    
+  <class id="5" language="java" name="chap09.bridge_pattern.example1.impl.DisplayImpl" project="DesignPattern" 
+    file="/DesignPattern/src/chap09/bridge_pattern/example1/impl/DisplayImpl.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="155" width="126" x="714" y="80"/>    
     <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
@@ -46,22 +47,26 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <association id="6">    
+  <generalization id="6">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="5"/>  
+  </generalization>  
+  <generalization id="7">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="3"/>  
+  </generalization>  
+  <association id="8">    
     <end type="SOURCE" refId="3" navigable="false">      
-      <attribute id="7" name="displayImpl"/>      
-      <multiplicity id="8" minimum="0" maximum="1"/>    
+      <attribute id="9" name="displayImpl">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="10" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
     </end>    
     <end type="TARGET" refId="5" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <generalization id="9">    
-    <end type="SOURCE" refId="1"/>    
-    <end type="TARGET" refId="3"/>  
-  </generalization>  
-  <generalization id="10">    
-    <end type="SOURCE" refId="4"/>    
-    <end type="TARGET" refId="5"/>  
-  </generalization>  
   <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
     sort-features="false" accessors="true" visibility="true">    
     <attributes public="true" package="true" protected="true" private="true" static="true"/>    

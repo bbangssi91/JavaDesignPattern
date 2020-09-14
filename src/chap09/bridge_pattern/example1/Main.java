@@ -1,4 +1,8 @@
-package chap09.bridge_pattern;
+package chap09.bridge_pattern.example1;
+
+import chap09.bridge_pattern.example1.func.CountDisplay;
+import chap09.bridge_pattern.example1.func.Display;
+import chap09.bridge_pattern.example1.impl.StringDisplayImpl;
 
 public class Main {
 

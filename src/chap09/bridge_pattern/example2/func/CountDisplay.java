@@ -1,4 +1,6 @@
-package chap09.bridge_pattern;
+package chap09.bridge_pattern.example2.func;
+
+import chap09.bridge_pattern.example2.impl.DisplayImpl;
 
 public class CountDisplay extends Display{
 

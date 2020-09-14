@@ -1,4 +1,6 @@
-package chap09.bridge_pattern;
+package chap09.bridge_pattern.example1.func;
+
+import chap09.bridge_pattern.example1.impl.DisplayImpl;
 
 public class Display {
 	
