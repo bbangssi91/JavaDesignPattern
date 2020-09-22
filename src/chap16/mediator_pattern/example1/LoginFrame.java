@@ -21,7 +21,7 @@ public class LoginFrame extends Frame implements ActionListener, Mediator{
 	private ColleagueTextField textPass;
 	private ColleagueButton buttonOk;
 	private ColleagueButton buttonCancel;
-	
+	private static final int LEAST_STRING_LENGTH = 4;
 	
 	// Constructor
 	// Colleague들을 생성하고, 배치한 후에 표시를 실행
@@ -110,7 +110,9 @@ public class LoginFrame extends Frame implements ActionListener, Mediator{
 		if(textUser.getText().length() > 0) // username에 텍스트가 입력되어있을 때, 
 		{
 			textPass.setColleagueEnabled(true); // password 활성화
-			if(textPass.getText().length() > 0) // password값이 입력되어 있을 때,
+			
+			// username과 password값이 최소 4자리 이상 입력되었을 때만,
+			if(textUser.getText().length() >= LEAST_STRING_LENGTH && textPass.getText().length() >= LEAST_STRING_LENGTH) 
 			{
 				buttonOk.setColleagueEnabled(true); // ok 버튼 활성화
 			}
