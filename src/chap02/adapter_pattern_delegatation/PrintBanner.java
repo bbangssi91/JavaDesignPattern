@@ -1,6 +1,6 @@
 package chap02.adapter_pattern_delegatation;
 
-public class PrintBanner implements Print{
+public class PrintBanner extends Print{
 
 	private Banner banner;
 	

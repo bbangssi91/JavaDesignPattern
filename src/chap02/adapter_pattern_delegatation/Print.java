@@ -1,7 +1,7 @@
 package chap02.adapter_pattern_delegatation;
 
-public interface Print {
-	public void printWeak();
-	public void printStrong();
+public abstract class Print {
+	public abstract void printWeak();
+	public abstract void printStrong();
 	
 }
