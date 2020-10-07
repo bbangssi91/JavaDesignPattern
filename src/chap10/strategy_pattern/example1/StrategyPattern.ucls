@@ -3,7 +3,7 @@
   associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
   <class id="1" language="java" name="chap10.strategy_pattern.example1.Train" project="DesignPattern" 
     file="/DesignPattern/src/chap10/strategy_pattern/example1/Train.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="871" y="337"/>    
+    <position height="-1" width="-1" x="264" y="317"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -12,7 +12,7 @@
   </class>  
   <class id="2" language="java" name="chap10.strategy_pattern.example1.AirLineStrategy" project="DesignPattern" 
     file="/DesignPattern/src/chap10/strategy_pattern/example1/AirLineStrategy.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="231" y="333"/>    
+    <position height="-1" width="-1" x="862" y="312"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -21,7 +21,7 @@
   </class>  
   <class id="3" language="java" name="chap10.strategy_pattern.example1.Main" project="DesignPattern" 
     file="/DesignPattern/src/chap10/strategy_pattern/example1/Main.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="144" width="178" x="25" y="56"/>    
+    <position height="144" width="178" x="37" y="32"/>    
     <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -30,7 +30,7 @@
   </class>  
   <class id="4" language="java" name="chap10.strategy_pattern.example1.Airplane" project="DesignPattern" 
     file="/DesignPattern/src/chap10/strategy_pattern/example1/Airplane.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="1066" y="337"/>    
+    <position height="-1" width="-1" x="459" y="317"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -39,7 +39,7 @@
   </class>  
   <interface id="5" language="java" name="chap10.strategy_pattern.example1.MovableStrategy" project="DesignPattern" 
     file="/DesignPattern/src/chap10/strategy_pattern/example1/MovableStrategy.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="122" width="248" x="307" y="73"/>    
+    <position height="122" width="248" x="938" y="52"/>    
     <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -48,7 +48,7 @@
   </interface>  
   <class id="6" language="java" name="chap10.strategy_pattern.example1.RoadStrategy" project="DesignPattern" 
     file="/DesignPattern/src/chap10/strategy_pattern/example1/RoadStrategy.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="426" y="333"/>    
+    <position height="-1" width="-1" x="1057" y="312"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -57,7 +57,7 @@
   </class>  
   <class id="7" language="java" name="chap10.strategy_pattern.example1.Bus" project="DesignPattern" 
     file="/DesignPattern/src/chap10/strategy_pattern/example1/Bus.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="1261" y="337"/>    
+    <position height="-1" width="-1" x="654" y="317"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -67,7 +67,7 @@
   <class id="8" language="java" name="chap10.strategy_pattern.example1.RailLoadStrategy" project="DesignPattern" 
     file="/DesignPattern/src/chap10/strategy_pattern/example1/RailLoadStrategy.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="621" y="333"/>    
+    <position height="-1" width="-1" x="1252" y="312"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -76,7 +76,7 @@
   </class>  
   <class id="9" language="java" name="chap10.strategy_pattern.example1.Moving" project="DesignPattern" 
     file="/DesignPattern/src/chap10/strategy_pattern/example1/Moving.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="1065" y="133"/>    
+    <position height="-1" width="-1" x="458" y="113"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -84,19 +84,23 @@
     </display>  
   </class>  
   <realization id="10">    
-    <end type="SOURCE" refId="8"/>    
+    <end type="SOURCE" refId="2"/>    
     <end type="TARGET" refId="5"/>  
   </realization>  
   <association id="11">    
     <end type="SOURCE" refId="9" navigable="false">      
-      <attribute id="12" name="movableStrategy"/>      
-      <multiplicity id="13" minimum="0" maximum="1"/>    
+      <attribute id="12" name="movableStrategy">        
+        <position height="0" width="0" x="631" y="-21"/>      
+      </attribute>      
+      <multiplicity id="13" minimum="0" maximum="1">        
+        <position height="0" width="0" x="631" y="-21"/>      
+      </multiplicity>    
     </end>    
     <end type="TARGET" refId="5" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
   <generalization id="14">    
-    <end type="SOURCE" refId="1"/>    
+    <end type="SOURCE" refId="7"/>    
     <end type="TARGET" refId="9"/>  
   </generalization>  
   <realization id="15">    
@@ -104,11 +108,11 @@
     <end type="TARGET" refId="5"/>  
   </realization>  
   <realization id="16">    
-    <end type="SOURCE" refId="2"/>    
+    <end type="SOURCE" refId="8"/>    
     <end type="TARGET" refId="5"/>  
   </realization>  
   <generalization id="17">    
-    <end type="SOURCE" refId="7"/>    
+    <end type="SOURCE" refId="1"/>    
     <end type="TARGET" refId="9"/>  
   </generalization>  
   <generalization id="18">    
